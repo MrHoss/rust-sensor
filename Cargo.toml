@@ -6,6 +6,4 @@ edition = "2021"
 [dependencies]
 sysinfo = "0.33.1"                      # Para informações gerais do sistema
 nvml-wrapper = "0.10"                 # Para monitoramento de GPUs Nvidia
-opencl3 = "0.10.0"                       # Para GPUs AMD e Intel (OpenCL)
-lm-sensors = "0.3.1"                    # Para monitoramento de temperatura da CPU e discos
-ocl = "0.19.7"
+async-std = {version = "1.12.0", features = ["attributes"]}
